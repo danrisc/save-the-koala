@@ -3,13 +3,83 @@ wood brown: A89F68;
 army green: 41521F;
 */
 
-body {
 
+
+.white h2,.white h4,.white a{
+	color: #A89F68;
 }
 
-.first-section{
+.brown h2,.brown h4,.brown a{
+	color: #41521F;
+}
+.brown p,.brown h6{
+	color: #fff;
+}
+.bold{
+	font-weight: 900;
+}
+.btn-see-more{
+	color: #FFF;
+	background-color: #41521F;
+	width: auto;
+}
+.btn-see-more:hover{
+	background-color: #FFF;
+	color: #41521F;
+}
+
+.img-responsive{
+	width: 100%;
+}
+
+/*Nav*/
+.navbar-default{
+	background-color: transparent;
+	border: none;
+	padding: 0 50px;
+	color: #fff;
+	position: absolute;
+}
+.navbar-default.navbar ul li a{
+	color: #fff;
+}
+.navbar-default h4{
+	padding: 5px;
+	float: left;
+	color: #fff;
+}
+.navbar-default.navbar ul li a:hover{
+	border-bottom: 3px solid #fff;
+	color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+
+/*Header*/
+.koala-back{
 	background-image: url(../img/portada.jpg);
-	height: 1200px;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 100vh;
+	margin: 0;
+	padding: 13em 5em;
+	box-sizing: border-box;
+}
+.brown .title-first{
+	color: #FFF;
+	font-weight: bold;
+}
+.features{
+	padding: 0.8em;
+}
+
+.features p{
+	padding: 0;
+	margin-bottom: 1em;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FFF;
+	margin-top: 1em;
 }
