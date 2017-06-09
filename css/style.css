@@ -3,8 +3,16 @@ wood brown: A89F68;
 army green: 41521F;
 */
 
-
-
+*{
+	font-family: 'Roboto', sans-serif;
+}
+.first-section{
+	background-image: url(../img/portada.jpg);
+	background-size: cover;
+	background-position: bottom;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
 .white h2,.white h4,.white a{
 	color: #A89F68;
 }
@@ -57,18 +65,13 @@ army green: 41521F;
 }
 
 /*Header*/
-.koala-back{
-	background-image: url(../img/portada.jpg);
-	background-size: cover;
-	background-position: bottom;
-	height: 100vh;
-	margin: 0;
-	padding: 13em 5em;
-	box-sizing: border-box;
+.title-one{
+	color: #fff;
 }
-.brown .title-first{
+.brown .tittle-first{
 	color: #FFF;
 	font-weight: bold;
+	padding-top: 230px;
 }
 .features{
 	padding: 0.8em;
@@ -83,3 +86,48 @@ army green: 41521F;
 	color: #FFF;
 	margin-top: 1em;
 }
+
+ .fourth-section{
+ 	background-color: #A89F68;
+ 	padding: 8em 0;
+ 	background-size: cover;
+ 	background-position: bottom;
+	height: 100vh;
+	background-repeat: no-repeat;
+ }
+#baby{
+	width: 100%;
+ 	border:solid 8px whitesmoke;
+
+}
+#save{
+ 	background-color: #41521F;
+ 	border:none;
+ 	color: white;
+ 	width: auto;
+ }
+.easy {
+ 	color:white;
+ }
+
+ .titulo-save{
+ 	color:white;
+ 	font-size: 1em;
+ 	font-weight: 700;
+ 	padding-bottom: 1em;
+ 	text-align: 15px;
+ }
+ 
+ .subtitulo-save{
+ 	color:#41521F;
+ 	font-weight: 700;
+ 	font-size: 1.5em;
+ }
+ 
+ .fouth-section p{
+ 	color:white;
+ }
+
+ #porfiado{
+ 	color:white;
+ }
