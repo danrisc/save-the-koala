@@ -41,7 +41,8 @@
 		<div class="features">
 					<h2 class="tittle-first">Save The Koala</h2>
 				<p>Koalas are declining in rapid numbers because the trees where they spend a majority of their time are being quickly chopped down. Activists need to take action to try and protect these animals’ habitats so they do not become a thing of the past.</p>
-			<button type="button" class="btn btn-see-more btn-lg btn-block">See more</button>
+					<!-- tooltip -->
+ 					<button type="button" class="btn btn-see-more negritas" data-toggle="tooltip" data-placement="button" title="Hola, soy un botón">See more</button>
 		</div>
 	</div>
 </div>
@@ -81,8 +82,30 @@
      <h3 class="titulo-save">EASY HELP</h3>
 	<h1 class="subtitulo-save">Save Koalas From Possible Extinction!</h1>
 <p id=porfiado>Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly 80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land and almost none is protected.</p>
-<a id="save" class="btn btn-default" href="#" role="button">Read More</a>
-     </div>
+<!-- modal ERROR 404-->
+ 					<button type="button" class="btn btn-read-more negritas blanco" data-toggle="modal" data-target="#mymodal">Read more</button>
+ 					<!-- modal -->
+ 					<div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"> <!-- aria-labelledby es para el título (?) -->
+ 						<div class="modal-dialog" role="document">
+ 							<div class="modal-content">
+ 								<div class="modal-header">
+ 									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+ 										<span aria-hidden="true">&times;</span>
+ 									</button>
+ 									<h4 class="modal-title" id="myModalLabel">ERROR 400</h4>
+ 								</div>
+ 								<!--texto del modal -->
+ 								<div class="modal-footer">
+ 									<button type="button" class="btn btn-primary btn-modal negritas" data-dismiss="modal">Close</button>
+ 								</div>
+ 							</div>
+ 						</div>
+ 					</div>
+ 
+ 				</div>
+ 					
+ 					
+     
      <div class="col-md-6 col-sx-offset-6">
      	<img id="baby" src="img/cosita.jpg" alt="">
      </div>
@@ -181,11 +204,18 @@
  						<p><span class="negrita">3</span> visits per month</p>
  						<hr>
  						<p><span class="negrita">PublicAPI</span> access</p>
- 						<a class="btn btn-default text-uppercase" href="#" role="button">Donate</a>
+ 						<!-- ingreso collapse -->
+ 				<button type="button" class="btn btn-donate" data-toggle="collapse" data-target="#mycollapse" aria-expanded="false" aria-controls="mycollapse">DONATE</button>
+ 
+ 					<!-- collapse -->
+ 				<div class="collapse" id="mycollapse">
+ 					<div class="content-colapse">
+ 						<p>Por el momento no podemos realizar su solicitud.</p>
  					</div>
- 				</div>
- 			</div>
- 		</div>
+					</div>
+  				</div>
+  			</div>
+  		</div>
  	</section>
  	</section>
  	<!-- footer -->
