@@ -218,3 +218,37 @@ army green: 41521F;
  	padding-bottom: 1em;
  	color:#41521F;
  }
+ /*seccion FOOTER*/
+ footer{
+ 	background-color: #41521F;
+ 	padding: 5em 0;
+ }
+ 
+ footer .sobre{
+ 	color: #A89F68;
+ 	font-size: 1em;
+ }
+ 
+ footer p{
+ 	color: white;
+ 	font-size: 1em;
+ }
+ 
+ footer a{
+ 	color:#A89F68;
+ }
+ 
+ footer a:hover{
+ 	color:white;
+ }
+ 
+ footer .menu-footer{
+ 	padding-top:2em;
+ }
+ 
+ footer .menu-footer li{
+ 	list-style-type:none;
+ 	font-size: 1em;
+ 	padding:0.4em;
+ }
+ 
